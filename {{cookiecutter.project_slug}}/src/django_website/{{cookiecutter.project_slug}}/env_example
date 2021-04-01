@@ -1,0 +1,12 @@
+DEBUG=True
+ENVIRONMENT="development"
+DATABASE_ENGINE="django.db.backends.sqlite3"
+DATABASE_NAME='db.sqlite3'
+DATABASE_USER="Not Used"
+DATABASE_PASSWORD="Not Used"
+DATABASE_HOST="Not Used"
+DATABASE_PORT="5432"
+EMAIL_HOST="developer-email-host"
+EMAIL_PORT="developer-email-port"
+EMAIL_HOST_USER="developer-email-user"
+EMAIL_HOST_PASSWORD="developer-email-host-password"

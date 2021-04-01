@@ -1,0 +1,14 @@
+{
+  "project_name": "The Best Project",
+  "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+  "description": "",
+  "author_name": "Glen Jarvis",
+  "email": "{{ cookiecutter.author_name.lower()|replace(' ', '-') }}@example.com",
+  "business_name": "Glen Jarvis Training & Consulting, LLC",
+  "version": "0.1.0",
+  "open_source_license": [
+    "MIT",
+    "Not open source"
+  ],
+  "timezone": "UTC"
+}
