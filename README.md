@@ -13,15 +13,6 @@ Default projects have:
   * Django Debug Toolbar (development dependency)
   * Modern TOML file project format (vs setup.py)
 
-## Create project soruce code
-
-1. `git clone https://github.com/glenjarvis/django-cookiecutter-glenjarvis.git`
-2. Answer questions about project
-3. `cd <project_slug>/src/django_website/<project_slug>`
-4. `mv env_example .env`
-5. `cd ../../../`  You should now be in the top of the newly created porject
-6. `git init`
-
 ## Activate Python environment
 
 Create / Activate an isolated Python environment for your project however you
@@ -31,6 +22,16 @@ For example:
 1. `python3 -m venv venv`
 2. `source venv/bin/activate`
 3. `pip install --upgrade pip`
+4. `pip install cookiecutter`
+
+## Create project source code
+
+1. `cookiecutter https://github.com/glenjarvis/django-cookiecutter-glenjarvis.git`
+2. Answer questions about project
+3. `cd <project_slug>/src/django_website/<project_slug>`
+4. `mv env_example .env`
+5. `cd ../../../`  You should now be in the top of the newly created project
+6. `git init`
 
 ## Install library dependencies
 
